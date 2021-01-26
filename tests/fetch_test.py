@@ -139,7 +139,7 @@ class TestUtilityFunctions(unittest.TestCase):
 
   def test_run_config_fetch_integration(self):
     config = fetch.run_config_fetch('depot_tools', [])
-    url = 'https://chromium.googlesource.com/chromium/tools/depot_tools.git'
+    url = 'https://github.com/yc229/depot_tools.git'
     spec = {
         'type': 'gclient_git',
         'gclient_git_spec': {
